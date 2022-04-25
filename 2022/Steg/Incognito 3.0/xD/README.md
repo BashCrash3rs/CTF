@@ -37,4 +37,8 @@ To take a look at the header we use <code>hexeditor tv_chal.jpg</code> and immed
 
 Let's fix that!
 
+![header fixed](https://user-images.githubusercontent.com/104336820/165021788-104b16c0-89cf-47d2-83b0-679c987cc082.png)
+
+Now that the magic numbers have been corrected, we check <code>eog tv_chal.jpg</code> again...
+
 
