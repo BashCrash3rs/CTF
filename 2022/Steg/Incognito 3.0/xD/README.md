@@ -33,4 +33,8 @@ exiftool gives us a warning that we have an unknown 30-byte header. Then it proc
 
 To take a look at the header we use <code>hexeditor tv_chal.jpg</code> and immediately we are able to see that the file signature for a JPEG file is not what we have here for the magic numbers. 
 
+![hexeditor](https://user-images.githubusercontent.com/104336820/165021657-cf2d5924-f090-44e5-bf89-538d467d63f1.png)
+
+Let's fix that!
+
 
