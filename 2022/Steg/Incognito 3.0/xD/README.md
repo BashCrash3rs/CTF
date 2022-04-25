@@ -45,5 +45,6 @@ Now that the magic numbers have been corrected, we check <code>eog tv_chal.jpg</
 
 Looks like the issue was indeed just a corrupted header! And in the corner of the television in the image, we can see an image of some text. If we zoom in we can retrieve our flag.
 
+![tv flag](https://user-images.githubusercontent.com/104336820/165022223-d28d0fc8-9ca7-40bd-88f4-7e771656f216.png)
 
 
