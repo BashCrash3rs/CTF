@@ -26,9 +26,11 @@ Here we find a couple of things of interest...
 
 ![exiftool](https://user-images.githubusercontent.com/104336820/165020443-d386a41f-2448-4eb6-9ff2-6ac16eeab562.png)
 
-exiftool gives us a warning that we have an unknown 30-byte header. Then it proceeds to reset the file type as the header configuration is unrecognized which results in our inability to view the image in its current state. All of our recon has led us to assume that the image itself contains the flag and likely it is a matter of a corrupted header.
+exiftool gives us a warning that we have an unknown 30-byte header. Then it proceeds to reset the file type as the header configuration is unrecognized which results in our inability to view the image in its current state. All of our recon has led us to assume that the image itself contains the flag and likely it is a matter of a corrupted header. We likely have ourselves a magic numbers issue.
 
 
 ## <- Fixing the header ->
+
+To take a look at the header we use <code>hexeditor tv_chal.jpg</code> and immediately we are able to see that the file signature for a JPEG file is not what we have here for the magic numbers. 
 
 
