@@ -16,8 +16,10 @@ Of course, we didn't expect it to be as easy as that but nonetheless, it is alwa
 
 Next, we run some basic tools to get some more technical information about the image we are working with. We put the file through binwalk first with <code>binwalk -e tv_chal.jpg</code>
 
+![binwalk](https://user-images.githubusercontent.com/104336820/165020194-2a2a0689-4478-4fd9-bf4f-2de5ef113c02.png)
 
-binwalk shows us that there is nothing here to extract. This leads us to believe that maybe we should look at the metadata as we now know 
-the flag isn't in a file that we need to extract.
+binwalk shows us that there is nothing here to extract. This leads us to believe that maybe we should look at the metadata 
+as we now know the flag isn't in a file that we need to extract.
 
-We fire up exiftool with <code>exiftool -v tv_chal.jpg</code> to take a look at the metadata of the file. Here we find a couple of things of interest 
+We fire up exiftool with <code>exiftool -v tv_chal.jpg</code> to take a look at the metadata of the file. 
+Here we find a couple of things of interest...
