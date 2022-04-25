@@ -39,6 +39,11 @@ Let's fix that!
 
 ![header fixed](https://user-images.githubusercontent.com/104336820/165021788-104b16c0-89cf-47d2-83b0-679c987cc082.png)
 
-Now that the magic numbers have been corrected, we check <code>eog tv_chal.jpg</code> again...
+Now that the magic numbers have been corrected, we check <code>eog tv_chal.jpg</code> again to see if we can view the image now...
+
+![can view](https://user-images.githubusercontent.com/104336820/165021971-5fc73c3a-71a8-49e8-8eeb-bc2ae8cb63bd.png)
+
+Looks like the issue was indeed just a corrupted header! And in the corner of the television in the image, we can see an image of some text. If we zoom in we can retrieve our flag.
+
 
 
