@@ -1,1 +1,16 @@
-*/Add writeup/*
+# <|-- Keeber 1 --|>
+
+The first challenge in the Keeber series tells us the following:
+
+"You have been applying to entry-level cybersecurity jobs focused on reconnaissance and open source intelligence (OSINT). Great news! You got an interview with a small cybersecurity company; the Keeber Security Group.
+Before interviewing, they want to test your skills through a series of challenges oriented around investigating the Keeber Security Group.
+
+The first step in your investigation is to find more information about the company itself. All we know is that the company is named Keeber Security Group and they are a cybersecurity startup.
+To start, help us find the person who registered their domain. The flag is in regular format."
+
+## <- Solution ->
+Easy enough, we Google to find the website of the company at this address: https://keebersecuritygroup.com/
+
+Now we head over to our terminal and run a quick WHOIS check with <code>whois keebersecuritygroup.com</code> to check the registrant information on WHOIS and we find our flag waiting for us in the Admin Name field.
+
+![WHOIS](https://user-images.githubusercontent.com/104336820/167040903-016f3532-fd8d-4580-87d2-00aa39f87388.png)
